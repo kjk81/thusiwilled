@@ -1,0 +1,92 @@
+
+body {
+    background-color: var(--background);
+    color: black;
+}
+
+.home-link h1{
+    font-family: "La Belle Aurore", cursive; 
+    font-weight: 400;
+    font-style: bold;
+  }
+  
+  .website-name {
+    position: relative;
+  
+    padding: 10px 20px 0px 10px;
+    width: fit-content;
+    font-size: 3.6rem;
+    visibility: visible;
+    opacity: 1;
+  
+    animation: 0.7s 1 ease slideInFromAbove;
+    transform: all 0.3s ease;
+  
+    background-color: var(--background);
+    height: 200px;
+    border-radius: var(--radius);
+    border-bottom-left-radius: 50%;
+  
+    border-bottom: var(--accent) 2.5px solid;
+  
+    box-shadow: none;
+  
+    display: flex;
+    align-items:center;
+    justify-content: center;
+  }
+  .website-name:hover{
+    background-color: var(--accent);
+    box-shadow: var(--shadow);
+  }
+  .website-name:hover .home-link {
+    color: var(--background);
+  }
+  .home-link, .home-link:visited, .home-link:active {
+    text-decoration: none;
+    text-decoration-color: none;
+    color: var(--accent);
+    transition: all 0.3s ease;
+  }
+  @keyframes slideInFromAbove {
+    from {
+        transform: translateY(-100%);
+    }
+  
+    to {
+        transform: translateY(0);
+    }
+  }
+
+  @media screen and (max-width: 736px) {
+    .website-name {
+      font-size: 2rem;
+    }
+  }
+  
+  .banner {
+    position: relative;
+    width: 100%;
+    /*
+    border-top: 5px solid var(--accent);
+    border-bottom: 5px solid var(--accent);*/
+    height: 7rem;
+    background: var(--accent);
+  
+    border: 2px solid var(--second);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+  
+    /* box-shadow: 0px 0px 2px 1.5px rgba(0, 0, 0, 0.2); */
+    text-align: center;
+    padding: 0;
+  }
+  
+  .banner h2 {
+    color: var(--background);
+    font-size: 4.5rem;
+  }
+  
+  .calc-space {
+    background-image: linear-gradient(180deg, var(--background) 0%, #00000052 90%), url('../images/calcspace.png');
+  }

@@ -1,0 +1,9 @@
+* {
+    --dark-bg: rgb(33, 33, 33);
+    --dark-second: rgb(224, 224, 224);
+}
+
+body {
+    background: var(--dark-bg);
+    color: var(--dark-second);
+}

@@ -1,0 +1,73 @@
+  
+  .blocks-container{
+    margin: 100px 0px 300px 0px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  .block-item {  
+    width: 350px;
+    height: fit-content;
+  
+    flex-grow: 0.15;
+    flex-shrink: 0.1;
+    margin: 30px 30px;
+  
+    padding: 1.1rem;
+    font-size: 1.6rem;
+    color: var(--background);
+    opacity: 100%;
+    border-radius: 10%;
+    border: var(--lighter-accent) 0.9rem outset;
+    /*box-shadow: 0px 5px var(--accent);*/
+  
+    background-color: var(--accent);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /*background-image: linear-gradient(0deg, var(--accent) 0%, #00000029 60%), url();*/
+  }
+
+  .image-block {
+    height: 350px;
+    border: var(--second) 3px solid;
+    display:flex;
+    align-items: flex-end;
+    border-top: none;
+    box-shadow: 0px 5px var(--accent);
+  }
+  
+  .image-block a, .block-item a:visited, .block-item a:active{
+    text-decoration: none;
+    color: var(--accent);
+  }
+
+  .a2, .a2:visited, .a2:active, .a3, .a3:visited, .a3:active{
+    text-decoration: none;
+    color: var(--background);
+    font-style: italic;
+  }
+  .a2:hover {
+    color: var(--second)
+  }
+  .a3:hover {
+    color: var(--accent)
+  }
+
+  .image-block a:hover, .a2:hover, .a3:hover{
+    text-decoration: underline;
+  }
+
+  .underline {
+    border-bottom: 2px solid var(--lighter-accent);
+    padding: 0px 0px 0.2rem 0px;
+    margin: 0.3rem 0 0.7rem 0;
+  }
+
+  .block-dark {
+    background-color: var(--dark-bg);
+    border: var(--accent) 0.2rem solid;
+  }
