@@ -10,24 +10,40 @@
     rgba(0, 0, 0, 0.1) 0px 0px 0px 1px;
 
   --background: #ffffff;
-  --accent: #6de801;
-  --lighter-accent: #b9ff7c;
+
+  /*--background: black;*/
+  /*--accent: #6de801;*/
+  /*--lighter-accent: #b9ff7c;*/
+  /*
+  --accent: #ffa500;
+  --lighter-accent: #ffbe44;
+  */
+
+  --accent: #00eeff;
+  --lighter-accent: #00ffff;
+
   --second: black;
 
+  --dark-bg: rgb(33, 33, 33);
+  --dark-second: rgb(224, 224, 224);
 
   --gap: 0.5rem;
   --radius: 5px;
 }
 
 h1, h2 {
-  font-family: "La Belle Aurore", cursive;
+  /*font-family: "La Belle Aurore", cursive;*/
   font-weight: 300;
-  font-style: normal;
+  font-style: bold;
+
 }
 
 body {
   display: flex;
   flex-direction: column;
+
+  background: var(--dark-bg);
+  color: var(--dark-second);
 }
 
 .welcome {

@@ -27,7 +27,7 @@
 
 .bx {
   font-size: 3rem;
-  color: var(--background)
+  color: var(--dark-bg)
 }
 
 .btn-icon {
@@ -58,15 +58,15 @@
   column-gap: var(--gap);
   padding: 0.8rem 1rem;
   text-decoration: none;
-  color:var(--background);
+  color:var(--dark-bg);
 }
 
 .dropdown a:hover {
   background-color: var(--color);
-  color: var(--second);
+  color: var(--background);
 }
 .dropdown a:hover i {
-  color: var(--second)
+  color: var(--background)
 }
 
 .ext-gone {
