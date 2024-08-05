@@ -48,7 +48,7 @@ body {
 
 .welcome {
   position: relative;
-  margin: 150px 150px 50px 150px;
+  margin: 150px 0 50px 0;
 
   display: flex;
   flex-direction:column;

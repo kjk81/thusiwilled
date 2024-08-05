@@ -1,21 +1,21 @@
   
   .blocks-container{
-    margin: 100px 0px 300px 0px;
+    margin: 100px 1rem 300px 1rem;
     
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
   }
   
   .block-item {  
-    width: 350px;
+    width: 25rem;
     height: fit-content;
   
     flex-grow: 0.15;
-    flex-shrink: 0.1;
-    margin: 30px 30px;
-  
+    flex-shrink: 0.125;
+    margin: 3rem;
+    
     padding: 1.1rem;
     font-size: 1.6rem;
     color: var(--dark-bg);
@@ -32,12 +32,13 @@
   }
 
   .image-block {
-    height: 350px;
+    height: 25rem;
     border: var(--second) 3px solid;
     display:flex;
     align-items: flex-end;
     border-top: none;
     box-shadow: 0px 5px var(--accent);
+
   }
   
   .image-block a, .block-item a:visited, .block-item a:active{
