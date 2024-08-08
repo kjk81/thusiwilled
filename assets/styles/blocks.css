@@ -1,23 +1,26 @@
   
   .blocks-container{
-    margin: 100px 1rem 300px 1rem;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 100%;
     
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
   }
   
   .block-item {  
     width: 25rem;
     height: fit-content;
-  
+    
     flex-grow: 0.15;
-    flex-shrink: 0.125;
-    margin: 3rem;
+    flex-shrink: 1;
+    
+    margin: 2rem 1rem;
     
     padding: 1.1rem;
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     color: var(--dark-bg);
     opacity: 100%;
     border-radius: 10%;
@@ -63,13 +66,29 @@
     color: var(--accent)
   }
 
+  .a4, .a4:visited, .a4:active {
+    color: var(--background);
+    font-style: italic;
+    text-decoration: underline;
+  }
+  .a4:hover {
+    color: var(--accent);
+    text-decoration: none;
+  }
+
   .image-block a:hover, .a2:hover, .a3:hover{
     text-decoration: underline;
   }
 
   .underline {
     border-bottom: 2px solid var(--lighter-accent);
-    padding: 0px 0px 0.2rem 0px;
+    padding-bottom: 0.2rem;
+    margin: 0.3rem 0 0.7rem 0;
+  }
+
+  .underline-2 {
+    border-bottom: 2px solid var(--lighter-accent);
+    padding-bottom: 1rem;
     margin: 0.3rem 0 0.7rem 0;
   }
 
@@ -77,4 +96,21 @@
     background-color: var(--dark-bg);
     border: var(--accent) 0.2rem solid;
     color: var(--background);
+  }
+
+  .big-block {
+    width: 100%;
+    height: fit-content;
+
+    background-color: var(--dark-light);
+    padding: 5rem;
+  }
+  @media screen and (max-width: 700px) {
+    .big-block {
+      padding: 2rem 1rem;
+    }
+  }
+
+  .new-2 {
+    width: 100%;
   }
