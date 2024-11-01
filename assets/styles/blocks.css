@@ -44,7 +44,7 @@
 
   }
   
-  .image-block a, .block-item a:visited, .block-item a:active{
+  .image-block a {
     text-decoration: none;
     color: var(--accent);
   }
