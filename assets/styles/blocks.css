@@ -114,3 +114,8 @@
   .new-2 {
     width: 100%;
   }
+
+  .list-block {
+    border: var(--accent) 0.2rem solid;
+    list-style: none;
+  }
