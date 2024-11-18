@@ -102,7 +102,7 @@
     width: 100%;
     height: fit-content;
 
-    background-color: var(--dark-light);
+    background-color: var(--dark-bg);
     padding: 5rem;
   }
   @media screen and (max-width: 700px) {

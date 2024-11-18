@@ -8,60 +8,19 @@
     <title>Fiction - Fantasy, Science-Fiction, LitRPG - Thus I Willed</title>
     <meta name="robots" content="index, follow">
 
-    <link href="../assets/styles/drop.css" rel="stylesheet"/>
-    <link href="../assets/styles/each.css" rel="stylesheet"/>
+    <!--Load jQuery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link href="/assets/styles/drop.css" rel="stylesheet"/>
+    <link href="/assets/styles/each.css" rel="stylesheet"/>
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
 
-    <link href="../assets/styles/topic.css" rel="stylesheet"/>
-    <link href="../assets/styles/blocks.css" rel="stylesheet"/>
+    <link href="/assets/styles/topic.css" rel="stylesheet"/>
+    <link href="/assets/styles/blocks.css" rel="stylesheet"/>
 </head>
 <body>
-    <!--Navigation Bar-->
-    <div class="nav-bar">
-            <!--Menu Button-->
-            <div class="container">
-                <button class="btn" id="btn">
-                    <i class="bx bx-menu-alt-right btn-icon" id="arrow"></i>
-                </button>
-                <div class="dropdown" id="dropdown">
-                    <a href = "..">
-                        <i class="bx bx-home"></i>
-                        ThusIWilled
-                    </a>
-                    <a href="../games">
-                        <i class="bx bx-joystick"></i>
-                        Games
-                    </a>
-                    <a href="../fiction">
-                        <i class="bx bx-pencil"></i>
-                        Fiction
-                    </a>
-                    <a href="../learn">
-                        <i class="bx bx-brain"></i>
-                        Learn
-                    </a>
-                    <a href="../photos">
-                        <i class="bx bx-camera"></i>
-                        Photos
-                    </a>
-                    <a href="../journal">
-                        <i class="bx bx-book-reader"></i>
-                        Journal
-                    </a>
-                    <!--
-                    <a href="https://kjkast.github.io/projects" class="ext-link">
-                        <i class="bx bx-code-alt ext-gone"></i>
-                        <i class="bx bx-right-arrow-alt ext"></i>
-                        Projects
-                    </a>    
-                    -->
-                    <a href="../about-me">
-                        <i class="bx bx-user ext-gone"></i>
-                        About
-                    </a>
-                </div>
-            </div>
-    </div>
+    <div id="nav-temp"></div>
+
     <!--Fiction Landing-->
     <header class="welcome t-w">
         <h1 class="green">My Fiction</h1>
@@ -74,7 +33,7 @@
         <h2 class="green">Choose Your Story</h2>
         <div class = "blocks-container">             
             <div class="block-item block-dark">
-                  <a href="follow-the-trail" class="a3">
+                  <a href="follow-the-trail.html" class="a3">
                     <h3>Follow The Trail</h3>
                 </a>
                 <h5 class="underline">Chapter 1</h5>
@@ -95,7 +54,7 @@
     <section id="all-works">
         <ul class="blocks-container">
             <li class="block-item block-dark list-block">
-                <a href="follow-the-trail" class="a3">
+                <a href="follow-the-trail.html" class="a3">
                     <h3>Follow The Trail</h3>
                 </a>
             </li>
@@ -111,7 +70,10 @@
             </li>
         </ul>
     </section>
+
+    <div id="footer-temp"></div>
 </body>
 <!--Scripts-->
-<script src = "../assets/js/drop.js"></script>
+<script src="/assets/js/components-each.js"></script>
+
 </html>

@@ -11,11 +11,11 @@
     <!--Load jQuery-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
-    <link href="assets/styles/drop.css" rel = "stylesheet" />
-    <link href="assets/styles/home.css" rel = "stylesheet" />
-    <link href="assets/styles/blocks.css" rel = "stylesheet" />
-    <link href="assets/styles/each.css" rel = "stylesheet" />
+    <!--Stylesheets-->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+    <link href="/assets/styles/blocks.css" rel="stylesheet"/>
+    <link href="/assets/styles/each.css" rel="stylesheet"/>
+    <link href="/assets/styles/home.css" rel="stylesheet"/>
 </head>
 <body>
     <!--Navigation Bar-->
@@ -50,14 +50,5 @@
         <div id="footer-temp"></div>
 </body>
 <!--Scripts-->
-<script>
-    // Using jQuery to load navigation bar and footer from /assets/components
-    $.get("assets/components/nav-bar.html", function(data) {
-        $("#nav-temp").replaceWith(data);
-    });
-  
-    $.get("assets/components/footer.html", function(data) {
-        $("#footer-temp").replaceWith(data);
-    });
-</script>
+<script src="/assets/js/components-each.js"></script>
 </html>

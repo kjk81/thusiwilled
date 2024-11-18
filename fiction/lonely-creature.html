@@ -8,7 +8,9 @@
     <title>Lonely Creature - Fiction - Thus I Willed</title>
     <meta name="robots" content="index, follow">
 
-    <link href="../assets/styles/drop.css" rel="stylesheet"/>
+    <!--Load jQuery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
     <link href="../assets/styles/each.css" rel="stylesheet"/>
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
 
@@ -17,51 +19,8 @@
 </head>
 <body>
     <!--Navigation Bar-->
-    <div class="nav-bar">
-        <!--Menu Button-->
-        <div class="container">
-            <button class="btn" id="btn">
-                <i class="bx bx-menu-alt-right btn-icon" id="arrow"></i>
-            </button>
-            <div class="dropdown" id="dropdown">
-                <a href = "../index.html">
-                    <i class="bx bx-home"></i>
-                    ThusIWilled
-                </a>
-                <a href="../games">
-                    <i class="bx bx-joystick"></i>
-                    Games
-                </a>
-                <a href="../fiction">
-                    <i class="bx bx-pencil"></i>
-                    Fiction
-                </a>
-                <a href="../learn">
-                    <i class="bx bx-brain"></i>
-                    Learn
-                </a>
-                <a href="../photos">
-                    <i class="bx bx-camera"></i>
-                    Photos
-                </a>
-                <a href="../journal">
-                    <i class="bx bx-book-reader"></i>
-                    Journal
-                </a>
-                <!--
-                <a href="https://kjkast.github.io/projects" class="ext-link">
-                    <i class="bx bx-code-alt ext-gone"></i>
-                    <i class="bx bx-right-arrow-alt ext"></i>
-                    Projects
-                </a>    
-                -->
-                <a href="../about-me">
-                    <i class="bx bx-user ext-gone"></i>
-                    About
-                </a>
-            </div>
-        </div>
-</div>
+    <div id="nav-temp"></div>
+
     <section id="latest" class="new-2">
         <article class="big-block">
             <h4 class="underline-2">
@@ -70,7 +29,8 @@
             <iframe src='https://view.officeapps.live.com/op/embed.aspx?src=https://kjkast.github.io/thusiwilled/media/stories/lonely-creature.docx' width='100%' height='650px' frameborder='0'></iframe>
         </article>
     </section>
+    <div id="footer-temp"></div>
 </body>
 <!--Scripts-->
-<script src = "../assets/js/drop.js"></script>
+<script src="/assets/js/components-each.js"></script>
 </html>
